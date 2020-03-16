@@ -1,0 +1,70 @@
+.afisha-description {
+    margin-top: 190px;
+}
+
+
+.social-title {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: #003253;
+    font-weight: 700;
+    font-size: 2.4rem;
+    text-align: left;
+}
+
+.main-btn {
+    color: #fff;
+    background-color: #3c4499;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-top: 25px;
+    width: 100%;
+    max-width: 200px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: all .4s;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    &:hover {
+        background-color: darken(#3c4499, 10%);
+    }
+}
+.afisha-description {
+    .main-btn {
+        margin-top: 0;
+        margin-bottom: 50px;
+        max-width: 300px;
+        text-align: center;
+        font-weight: 300;
+        background-color: #006abd;
+    }
+}
+.container-text {
+    font-size: 1.4rem;
+    padding-left: 35px;
+    line-height: 1.5;
+    letter-spacing: .3px;
+}
+.container-30 img {
+    width: 100%;
+}
+
+.desc-img {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container-text {
+        margin-top: 20px;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .afisha-description {
+        .container-40 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
